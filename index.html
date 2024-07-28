@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Wallet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Кошелёк</h1>
+        <div class="balance">
+            <span>Баланс: 0 $</span>
+        </div>
+        <div class="currencies">
+            <button class="currency">ВАЛЮТЫ</button>
+        </div>
+        <div class="transfer">
+            <h2>Перевести</h2>
+            <input type="text" id="recipient" placeholder="Получатель">
+            <input type="number" id="amount" placeholder="Сумма">
+            <button id="send">Отправить</button>
+        </div>
+        <div class="history">
+            <h2>История</h2>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
